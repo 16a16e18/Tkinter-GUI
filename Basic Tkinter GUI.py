@@ -20,7 +20,7 @@ def Login():
     username = enter_username.get()
     password = enter_password.get()
 
-    if username == "..." and password == "...":
+    if username == "set username here" and password == "set password here":
         result.config(text="Access Granted!")
     else:
             result.config(text="Access Denied X")
@@ -30,3 +30,5 @@ login_button.pack()
 
 
 root.mainloop
+
+# replace ("set username here" and "set password here") with the username and password that you want to set

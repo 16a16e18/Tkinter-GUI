@@ -21,9 +21,9 @@ def Login():
     password = enter_password.get()
 
     if username == "set username here" and password == "set password here":
-        result.config(text="Access Granted!")
+        result.config(text="Access Granted!", fg="green")
     else:
-            result.config(text="Access Denied X")
+            result.config(text="Access Denied X", fg="red")
 
 login_button = tk.Button(text="Login", command=Login)
 login_button.pack()

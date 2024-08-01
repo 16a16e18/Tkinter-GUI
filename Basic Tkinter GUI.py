@@ -20,7 +20,7 @@ def Login():
     username = enter_username.get()
     password = enter_password.get()
 
-    if username == "freezo" and password == "295":
+    if username == "..." and password == "...":
         result.config(text="Access Granted!")
     else:
             result.config(text="Access Denied X")

@@ -1,14 +1,17 @@
 import tkinter as tk
 root = tk.Tk()
+headline = tk.Label(text="LOGIN TO DISCORD", bg="#b1f2ff", font = 80)
+headline.pack()
 root.maxsize(400, 400)
 root.minsize(400, 400)
+root.config(bg="#b1f2ff")
              
-label_username = tk.Label(text ="Enter Username:")
+label_username = tk.Label(text ="Enter Username:", bg="#b1f2ff")
 label_username.pack()
 enter_username = tk.Entry()
 enter_username.pack()
 
-label_password = tk.Label(text="Enter Password:")
+label_password = tk.Label(text="Enter Password:", bg="#b1f2ff")
 label_password.pack()
 enter_password = tk.Entry(show="*")
 enter_password.pack()
@@ -20,10 +23,10 @@ def Login():
     username = enter_username.get()
     password = enter_password.get()
 
-    if username == "set username here" and password == "set password here":
-        result.config(text="Access Granted!", fg="green")
+    if username == "chocopie" and password == "360":
+        result.config(text="Access Granted!", fg="green", bg="#b1f2ff")
     else:
-            result.config(text="Access Denied X", fg="red")
+            result.config(text="Access Denied X", fg="red", bg="#b1f2ff")
 
 login_button = tk.Button(text="Login", command=Login)
 login_button.pack()
@@ -31,4 +34,4 @@ login_button.pack()
 
 root.mainloop
 
-# replace ("set username here" and "set password here") with the username and password that you want to set
+# replace ("chocopie" and "360") with the username and password that you want to set

@@ -1,4 +1,4 @@
-#VERSION 4
+#VERSION 5
 
 import tkinter as tk
 root = tk.Tk()

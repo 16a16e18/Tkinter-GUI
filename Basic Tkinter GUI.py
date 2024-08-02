@@ -2,8 +2,8 @@ import tkinter as tk
 root = tk.Tk()
 headline = tk.Label(text="LOGIN TO DISCORD", bg="#b1f2ff", font = 80)
 headline.pack()
-root.maxsize(400, 400)
-root.minsize(400, 400)
+root.maxsize(350, 350)
+root.minsize(350, 350)
 root.config(bg="#b1f2ff")
              
 label_username = tk.Label(text ="Enter Username:", bg="#b1f2ff")

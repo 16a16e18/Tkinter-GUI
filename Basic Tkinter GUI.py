@@ -1,3 +1,5 @@
+#VERSION 4
+
 import tkinter as tk
 root = tk.Tk()
 headline = tk.Label(text="LOGIN TO DISCORD", bg="#b1f2ff", font = 80)
